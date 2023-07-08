@@ -25,3 +25,5 @@ class Solution:
                 l = l + 1
         return nums
         
+# Runtime 175 ms Beats 71.56%
+# Memory 17.9 MB Beats 91.20%

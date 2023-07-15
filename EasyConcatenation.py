@@ -30,13 +30,13 @@
 # # Accepted 467.3K  Submissions 520.4K Acceptance Rate 89.8%
 
 
-# class Solution:
-#     def getConcatenation(self, nums: List[int]) -> List[int]:
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
 
-#         ans = []
-#         for i in range (2):
-#             for n in nums:
-#                 ans.append(n)
-#         return ans
+        ans = []
+        for i in range (2):
+            for n in nums:
+                ans.append(n)
+        return ans
 
 

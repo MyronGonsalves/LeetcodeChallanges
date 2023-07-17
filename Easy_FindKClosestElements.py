@@ -34,4 +34,5 @@ class Solution:
                 left +=1  
             else:
                 right -=1 
-        return  (arr[left:right+1]) 
+        return  (arr[left:right+1]) \
+        

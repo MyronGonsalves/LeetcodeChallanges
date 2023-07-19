@@ -42,3 +42,6 @@ class Solution:
                 r -= 1
 
         return max_area
+    
+# Runtime 741 ms Beats 40.43%
+# Memory 29.4 MB Beats 62.99% 

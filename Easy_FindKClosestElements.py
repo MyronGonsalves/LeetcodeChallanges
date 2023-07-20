@@ -36,3 +36,5 @@ class Solution:
                 right -=1 
         return  (arr[left:right+1]) \
         
+# Runtime 305 ms Beats 58.22%
+# Memory 18 MB Beats 50.12%  

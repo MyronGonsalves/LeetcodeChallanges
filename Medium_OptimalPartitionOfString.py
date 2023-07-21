@@ -39,4 +39,4 @@ class Solution:
                 curSet = set()
             curSet.add(c)
 
-        return ress  
+        return res  

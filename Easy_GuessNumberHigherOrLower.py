@@ -33,6 +33,10 @@
 # 1 <= pick <= n
 # Accepted 523K Submissions 1M Acceptance Rate 52.3% 
 
+
+
+
+            
 # The guess API is already defined for you.
 # @param num, your guess
 # @return -1 if num is higher than the picked number
@@ -45,13 +49,14 @@ class Solution:
         l, r = 1, n 
 
         while True:
-            m = (l + r ) // 2
-            res = guess(m)
-            if res > 0:
-                l = m + 1
-            elif res < 0:
-                l = m - 1
+            mid = (l + r ) // 2
+            res = guess(mid)
+            if res == -1:
+                r = mid -1
+            elif res == 1:
+                l = mid + 1
             else:
-                return m 
+                return mid 
             
-            
+# Runtime 41 ms Beats 78.9%
+# Memory 16.3 MB Beats 36.26%  

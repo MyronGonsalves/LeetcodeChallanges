@@ -33,5 +33,7 @@ class Solution:
                 stackT, stackInd = stack.pop()
                 res[stackInd] = (i - stackInd)
             stack.append([t,i])
-        return res
+        return res 
 
+# Runtime 1359 ms Beats 31.21%
+# Memory 32 MB Beats 22.33% 
